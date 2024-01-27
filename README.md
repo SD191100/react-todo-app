@@ -10,6 +10,8 @@ Todo-App
 ## Introduction
 This ToDo app is designed to help you manage your tasks efficiently. It provides a clean and user-friendly interface to add, edit, and delete your tasks.
 
+![todo-app](https://github.com/SD191100/images/blob/main/todo-app-image.png?raw=true)
+
 ## Features
 - Add a new task with a title and description.
 - Delete tasks.
