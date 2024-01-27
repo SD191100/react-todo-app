@@ -16,7 +16,7 @@ const todoSchema = new mongoose.Schema({
 const Todos = mongoose.model('Todos', todoSchema);
 
 mongoose.connect(
-  'mongodb+srv://shivamdurgude:01010202@cluster0.hny5grp.mongodb.net/todos', 
+  'mongodb+srv://<your-mongo-link>/todos', 
   { useNewUrlParser: true, useUnifiedTopology: true, dbName: "todos" }
 );
 

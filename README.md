@@ -1,4 +1,4 @@
-App
+Todo-App
 - A simple ToDo application built with React, Node.js, and MongoDB.
 ## Table of Contents
 - [Introduction](#introduction)
@@ -23,35 +23,36 @@ Make sure you have the following installed:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/todo-app.git
+git clone https://github.com/SD191100/react-todo-app.git
 ```
 
 2. Navigate to the server directory and install dependencies:
 
 ```bash
-cd todo-app/server
-npm install
+cd todo-app-js-v1
+cd backend
+npm i
 ```
 
 3. Start the server:
 
 ```bash
-npm start
+node server.js
 ```
 4. Navigate to the client directory and install dependencies:
 
 ```bash
-cd ../client
-npm install
+cd ../frontend
+npm i
 ```
 5. Start the React app:
 
 ```bash
-npm start
+npm run dev
 ```
 
 Project Structure
-```
+```bash
 todo-app-js-v1
     ├── backend
     │   ├── package.json
